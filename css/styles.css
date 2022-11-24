@@ -116,6 +116,7 @@ font-family: 'Inter';
             font-family: 'Inter';
             font-style: normal;
             resize: none;
+            outline: none;
         }
 
 .footer-button {
@@ -181,4 +182,8 @@ a.team-socials__social--networks {
             justify-content: center;
             align-items: center;
             row-gap: 12px;
+}
+
+address {
+    font-style: normal;
 }
