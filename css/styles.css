@@ -13,6 +13,7 @@ body {
 .container {
     @media screen and(min-width:320px) {
         max-width:320px;
+        
     }
 }
 
@@ -79,6 +80,18 @@ font-family: 'Inter';
     color: #FFFFFF;
 }
 
+.footer-icon {
+background: rgba(0, 197, 235, 0.4);
+    filter: blur(138.5px);
+    transform: rotate(-149.52deg);
+}
+
+.footer-icon__email {
+    background: rgba(125, 85, 255, 0.4);
+        filter: blur(142.5px);
+        transform: rotate(-149.52deg)
+}
+
 .footer-contact__email {
     font-family: 'Inter';
         font-style: normal;
@@ -87,6 +100,20 @@ font-family: 'Inter';
         line-height: 17px;
         color: #FFFFFF;
         list-style: none;
+        
+}
+
+.footer {
+    background-image: url(../images/restangle.jpg);
+}
+
+
+@media screen and (min-width:768px) {
+    .contact-form {
+        display: flex;
+        gap: 32px;
+    }
+
 }
 
 .contact-name {
@@ -103,9 +130,8 @@ font-family: 'Inter';
         line-height: 17px;
         color: #939EAC;
         outline: 0;
-    @media screen and(max-width:768px) {
-        max-width: 250px;
-    }
+        
+
 }
 
 
@@ -210,11 +236,4 @@ address {
         margin-left: 24px;
 }
 
-@media screen and(min-width:768px) {
-   .contact-form {
-        display: flex;
-        justify-content: center;
-        gap: 32px;
-        width: auto;
-    }
-}
+
