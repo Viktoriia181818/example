@@ -95,37 +95,55 @@ body {
     border: none;
         background: #FFFFFF;
     border-radius: 5px;
+    font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        color: #939EAC;
 }
 
 .contact-textarea {
-    max-width: 280px;
-        height: 220px;
-        width: 100%;
-}
+        max-width: 280px;
+            height: 220px;
+            width: 100%;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+            color: #939EAC;
+            font-family: 'Inter';
+            font-style: normal;
+            resize: none;
+        }
 
 .footer-button {
-    margin-top: 20px;
-        width: 181px;
+    width: 200px;
         height: 42px;
-        background: linear-gradient(90.03deg, #00C5EB -1.97%, #B544FE 89.43%);
+        background: transparent;
         border-radius: 5px;
         color: #ffff;
         font-weight: 700;
         font-size: 16px;
         line-height: 19px;
         border: none;
-}
+    }
+
 
 .footer-button:hover,
 .footer-button:focus {
     background: #06071B;
-    border: 1px linear-gradient(90.03deg, #00C5EB -1.97%, #B544FE 89.43%);
+    border-image: 1px linear-gradient(90.03deg, #00C5EB -1.97%, #B544FE 89.43%);
 }
 
 .button-class {
-    display: flex;
-    justify-content: center;
-}
+        display: inline-flex;
+        justify-content: center;
+        background-image: linear-gradient(90.03deg, #00C5EB -1.97%, #B544FE 89.43%);
+        border-radius: 5px;
+        background-clip: padding-box;
+        padding: 1px;
+    }
+
 
 .footer-socials {
     display: flex;
