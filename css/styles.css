@@ -128,7 +128,6 @@ body {
         border: none;
     }
 
-
 .footer-button:hover,
 .footer-button:focus {
     background: #06071B;
@@ -147,4 +146,11 @@ body {
 
 .footer-socials {
     display: flex;
+    list-style: none;
+    gap: 36px;
+}
+
+.team-socials__icon {
+    background: linear-gradient(90.03deg, #00C5EB -1.97%, #B544FE 89.43%);
+    border-radius: 50%;
 }
