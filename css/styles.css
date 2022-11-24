@@ -91,7 +91,6 @@ font-family: 'Inter';
 
 .contact-name {
     margin-bottom: 20px;
-    /* width: 280px; */
     width: 100%;
     height: 40px;
     border: none;
@@ -103,10 +102,15 @@ font-family: 'Inter';
         font-size: 14px;
         line-height: 17px;
         color: #939EAC;
+        outline: 0;
+    @media screen and(max-width:768px) {
+        max-width: 250px;
+    }
 }
 
+
+
 .contact-textarea {
-        max-width: 280px;
             height: 220px;
             width: 100%;
             font-weight: 500;
@@ -154,6 +158,7 @@ font-family: 'Inter';
     display: flex;
     list-style: none;
     gap: 14px;
+    justify-content: center;
 }
 
 .team-socials__icon {
@@ -179,12 +184,37 @@ a.team-socials__social--networks {
 .footer-contact {
         display: flex;
             flex-direction: column;
-            justify-content: center;
             align-items: center;
             row-gap: 12px;
+}
+
+@media screen and(max-width:767px) {
+    .footer-contact {
+        justify-content: center;
+    }
 }
 
 address {
     font-style: normal;
 }
 
+.support {
+    border-top: 1px solid #FFFFFF;
+}
+
+.support-text {
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        color: #FFFFFF;
+        margin-left: 24px;
+}
+
+@media screen and(min-width:768px) {
+   .contact-form {
+        display: flex;
+        justify-content: center;
+        gap: 32px;
+        width: auto;
+    }
+}
