@@ -12,13 +12,13 @@ body {
 }
  @media screen and (min-width:320px) {
 .container {   
- max-width:320px;
+    width:320px;
     }
 }
 
  @media screen and (min-width:768px) {
 .container {
-    max-width: 768px;
+    width: 768px;
     }
 }
 
@@ -30,9 +30,8 @@ body {
 }
 
 
-
 @media screen and (max-width:1279px) {
-    section {
+    .section {
             padding-bottom: 40px;
             padding-top: 40px;
             padding-right: auto;
@@ -41,7 +40,7 @@ body {
 }
 
 @media screen and (min-width:1280px) {
-    section {
+    .section {
         padding-bottom: 80px;
         padding-top: 80px;
         padding-right: auto;
@@ -231,6 +230,7 @@ background: rgba(0, 197, 235, 0.4);
     flex-direction: column;
 }
 
+
 a.team-socials__social--networks {
     display: flex;
     align-items: center;
@@ -270,4 +270,8 @@ address {
         margin-left: 24px;
 }
 
-
+@media screen and (min-width:1280px) {
+    .section-footer {
+            display: flex;
+        }
+}
