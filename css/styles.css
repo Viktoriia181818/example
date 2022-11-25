@@ -103,9 +103,12 @@ background: rgba(0, 197, 235, 0.4);
         
 }
 
-.footer {
-    background-image: url(../images/restangle.jpg);
+@media screen and (min-width:1200px) {
+    .footer {
+            background-image: url(../images/bg-footer.jpg);
+        }
 }
+
 
 
 @media screen and (min-width:768px) {
